@@ -1,5 +1,5 @@
-.slider, 
-.slider > div {
+.glider, 
+.glider > div {
     /* Images default to Center Center. Maybe try 'center top'? */
     background-position: center center;
     display: block;
@@ -17,11 +17,11 @@
     transition: transform .4s;
 }
 
-.slider > div {
+.glider > div {
     position: absolute;
 }
 
-.slider > i {
+.glider > i {
     color: #5bbd72;
     position: absolute;
     font-size: 60px;
@@ -40,39 +40,39 @@
     z-index: 4;
 }
 
-.slider > i svg {
+.glider > i svg {
     margin-top: 3px;
 }
 
-.slider > .left {
+.glider > .left {
     left: -100px;
 }
-.slider > .right {
+.glider > .right {
     right: -100px;
 }
-.slider:hover > .left {
+.glider:hover > .left {
     left: 0;
 }
-.slider:hover > .right {
+.glider:hover > .right {
     right: 0;
 }
 
-.slider > i:hover {
+.glider > i:hover {
     background:#fff;
     background: rgba(255, 255, 255, .8);
     transform: translateX(-2px);
 }
 
-.slider > i.right:hover {
+.glider > i.right:hover {
     transform: translateX(2px);
 }
 
-.slider > i.right:active,
-.slider > i.left:active {
+.glider > i.right:active,
+.glider > i.left:active {
     transform: translateY(1px);
 }
 
-.slider:hover > div {
+.glider:hover > div {
     transform: scale(1.01);
 }
 
@@ -80,7 +80,7 @@
     transform: scale(1);
 }
 
-.slider > ul {
+.glider > ul {
     position: absolute;
     bottom: 10px;
     left: 50%;
@@ -90,7 +90,7 @@
     transform: translateX(-50%);
 }
 
-.slider > ul > li {
+.glider > ul > li {
     padding: 0;
     width: 20px;
     height: 20px;
@@ -106,7 +106,7 @@
     transition: .3s;
 }
 
-.slider > ul > .showli {
+.glider > ul > .showli {
     background-color: #7EC03D;
     -moz-animation: boing .5s forwards;
     -o-animation: boing .5s forwards;
@@ -114,11 +114,11 @@
     animation: boing .5s forwards;
 }
 
-.slider > ul > li:hover {
+.glider > ul > li:hover {
     background-color: #7EC03D;
 }
 
-.slider > .show {
+.glider > .show {
     z-index: 1;
 }
 
@@ -134,7 +134,7 @@
     right: 0;
 }
 
-.titleBar {
+.titleBar1 {
     z-index: 2;
     display: inline-block;
     background: rgba(0,0,0,.5);
@@ -147,29 +147,29 @@
     color: #fff;
 }
 
-.titleBar * {
+.titleBar1 * {
     transform: translate(-20px, 30px);
     transition: all 700ms cubic-bezier(0.37, 0.31, 0.2, 0.85) 200ms;
     opacity: 0;
 }
 
-.titleBarTop .titleBar * {
+.titleBarTop .titleBar1 * {
     transform: translate(-20px, -30px);
 }
 
-.slider:hover .titleBar,
-.slider:hover .titleBar * {
+.glider:hover .titleBar1,
+.glider:hover .titleBar1 * {
     transform: translate(0);
     opacity: 1;
 }
 
-.titleBarTop .titleBar {
+.titleBarTop .titleBar1 {
     top: 0;
     bottom: initial;
     transform: translateY(-100%);
 }
 
-.slider > div span {
+.glider > div span {
     display: block;
     background: rgba(0,0,0,.5);
     position: absolute;
@@ -201,7 +201,7 @@
 
 /* -------------------------------------- */
 
-#slider2 {
+#glider1 {
     max-width: 30%;
     margin-right: 20px;
 }

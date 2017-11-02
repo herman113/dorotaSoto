@@ -13,6 +13,8 @@ export class MainController {
     this.$http = $http;
     this.socket = socket;
 
+    
+
     $scope.$on('$destroy', function() {
       socket.unsyncUpdates('thing');
     });
