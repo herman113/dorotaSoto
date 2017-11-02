@@ -36,7 +36,7 @@
 
 .browserupgrade {
   margin: 0.2em 0;
-  background: #ccc;
+  background: #fff;
   color: #000;
   padding: 0.2em 0;
 }
@@ -54,3 +54,22 @@
 @import '../components/oauth-buttons/oauth-buttons.css';
 @import '../components/services/services.css';
 /* endinject */
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+h1, h2, h3 {
+  font-family: 'Crimson Text', sans-serif;
+  font-weight: 100;
+}
