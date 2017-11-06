@@ -44,15 +44,16 @@
 
 /* Component styles are injected through gulp */
 /* inject:css */
+@import 'about/about.css';
 @import 'admin/admin.css';
+@import 'contact/contact.css';
+@import 'events/events.css';
 @import 'main/main.css';
-@import '../components/about/about.css';
-@import '../components/events/events.css';
+@import 'menu/menu.css';
+@import 'services/services.css';
 @import '../components/footer/footer.css';
-@import '../components/menu/menu.css';
 @import '../components/modal/modal.css';
 @import '../components/oauth-buttons/oauth-buttons.css';
-@import '../components/services/services.css';
 /* endinject */
 
 html {
@@ -72,4 +73,19 @@ body {
 h1, h2, h3 {
   font-family: 'Crimson Text', sans-serif;
   font-weight: 100;
+}
+
+.navbar-text {
+  margin-left: 15px;
+}
+
+.navbar.navbar-default.navbar-static-top {
+  margin-bottom: 0px;
+}
+
+p {
+  font-size: 1.5em;
+  margin-bottom: 2%;
+  margin-top: 2%;
+  
 }

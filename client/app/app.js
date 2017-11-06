@@ -25,16 +25,17 @@ import main from './main/main.component';
 import constants from './app.constants';
 import util from '../components/util/util.module';
 import socket from '../components/socket/socket.service';
-import aboutRoute from '../components/about/about.component';
-import servicesRoute from '../components/services/services.component';
-import menuRoute from '../components/menu/menu.component';
-import eventsRoute from '../components/events/events.component';
+import aboutRoute from './about/about.component';
+import servicesRoute from './services/services.component';
+import menuRoute from './menu/menu.component';
+import eventsRoute from './events/events.component';
+import contactRoute from './contact/contact.component';
 
 import './app.css';
 
 angular.module('hermotaMealsApp', [ngCookies, ngResource, ngSanitize, 'btford.socket-io', uiRouter,
   uiBootstrap, _Auth, account, admin, 'validation.match', navbar, footer, main, constants,
-  socket, util, aboutRoute, servicesRoute, menuRoute, eventsRoute
+  socket, util, aboutRoute, servicesRoute, menuRoute, eventsRoute, contactRoute
 ])
   .config(routeConfig)
   .run(function($rootScope, $location, Auth) {

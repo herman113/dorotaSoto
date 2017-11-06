@@ -1,0 +1,75 @@
+.containerStyle {
+  margin: 5%;
+}
+
+.aboutHeader {
+  margin-bottom: 8%;
+}
+
+.aboutHeader1 {
+  font-family: freight-sans-pro, Sans-serif;
+  font-size: .9em;
+  letter-spacing: 4px;
+  font-style: normal;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.aboutHeader2 {
+  color: rgb(243, 12, 12);
+  font-size: 4.5em;
+  font-family: freight-big-pro, serif;
+  /* font-style: italic; */
+  font-weight: 0;
+}
+
+.hero-unit {
+  background-image: url(../../assets/images/d11.jpg);
+  height: 959px;
+  background-repeat:no-repeat;
+  background-size:cover;
+  /* background-attachment: fixed; */
+  background-position:center top;
+  /* background-size: 100%; */
+  margin-bottom: 2%;
+}
+
+.aboutDorota {
+  /* margin:3vh 25vw; */
+}
+
+.aboutDorotaHeader {
+  line-height: 1.4;
+  letter-spacing: 1px;
+  color: rgb(243, 12, 12);
+  font-size: 2.2em;
+  font-family: freight-big-pro, serif;
+  /* font-style: italic; */
+  font-weight: 100;
+}
+.aboutDorotaParagraph {
+  line-height: 1.4;
+  letter-spacing: 1px;
+  color: rgb(17, 16, 16);
+  font-size: 1.1em;
+  font-family: freight-big-pro, sans-serif;
+  /* font-style: italic; */
+  font-weight: 100;
+}
+
+.testimonial {
+  text-align: center;
+  line-height: 1.4;
+  letter-spacing: 1px;
+  color: rgb(243, 12, 12);
+  font-size: 2.2em;
+  font-family: freight-big-pro, serif;
+  /* font-style: italic; */
+  font-weight: 100;
+}
+
+.testimonialBottom {
+  font-size: 1.1em;
+  letter-spacing: 2px;
+  font-weight: 400;
+}
