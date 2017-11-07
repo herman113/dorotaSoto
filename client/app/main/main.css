@@ -4,7 +4,12 @@
   position: static;
 }
 
-/* .heroText {
+.heroText {
+  color: white;
   position: relative;
-  top: 50px;
-} */
+  bottom: 50px;
+  font-size: 3em;
+  font-family: freight-big-pro, serif;
+  font-weight: 300;
+  font-style: normal;
+}
