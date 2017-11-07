@@ -17,10 +17,11 @@
 
 .menuHeader1 {
   color: rgb(243, 12, 12);
-  font-size: 4.5em;
+  font-size: 4em;
+  font-style: normal;
   font-family: freight-big-pro, serif;
   /* font-style: italic; */
-  font-weight: 0;
+  font-weight: 300;
 }
 
 .menuHeader2 {
