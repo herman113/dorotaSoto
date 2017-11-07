@@ -12,7 +12,7 @@ footer.footer {
   display: inline-block;
   margin-left: 2%;
   margin-right: 2%;
-  margin-bottom: 2%;
+  margin-bottom: 5%;
   text-decoration: underline;
   color: black;
 }
@@ -32,4 +32,9 @@ footer.footer {
 .btn-container {
   padding-top: 5em;
   padding-bottom: 5em;
+}
+
+.modalButton {
+  margin-top: 10%;
+  margin-bottom: 10%;
 }
