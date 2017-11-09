@@ -30,12 +30,13 @@ import servicesRoute from './services/services.component';
 import menuRoute from './menu/menu.component';
 import eventsRoute from './events/events.component';
 import contactRoute from './contact/contact.component';
+import mainBtn from '../components/mainCTABtn/mainCTABtn.component';
 
 import './app.css';
 
 angular.module('hermotaMealsApp', [ngCookies, ngResource, ngSanitize, 'btford.socket-io', uiRouter,
   uiBootstrap, _Auth, account, admin, 'validation.match', navbar, footer, main, constants,
-  socket, util, aboutRoute, servicesRoute, menuRoute, eventsRoute, contactRoute
+  socket, util, aboutRoute, servicesRoute, menuRoute, eventsRoute, contactRoute, mainBtn
 ])
   .config(routeConfig)
   .run(function($rootScope, $location, Auth) {

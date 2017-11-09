@@ -1,4 +1,12 @@
-<div class="navbar navbar-default navbar-static-top">
+<!-- <style>
+  .customized-li button {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 0; 
+  }
+</style> -->
+
+<div class="navbar navbar-default">
   <div class="container">
     <div class="navbar-header">
       <button class="navbar-toggle" type="button" ng-click="$ctrl.isCollapsed = !$ctrl.isCollapsed">
@@ -18,12 +26,18 @@
       </ul>
 
       <ul class="nav navbar-nav navbar-right">
+        <li>
+          <main-btn></main-btn>
+        </li>
+      </ul>
+
+      <!-- <ul class="nav navbar-nav navbar-right">
         <li ng-hide="$ctrl.isLoggedIn()" ui-sref-active="active"><a ui-sref="signup">Sign up</a></li>
         <li ng-hide="$ctrl.isLoggedIn()" ui-sref-active="active"><a ui-sref="login">Login</a></li>
         <li ng-show="$ctrl.isLoggedIn()"><p class="navbar-text">Hello {{ $ctrl.getCurrentUser().name }}</p> </li>
         <li ng-show="$ctrl.isLoggedIn()" ui-sref-active="active"><a ui-sref="settings"><span class="glyphicon glyphicon-cog"></span></a></li>
         <li ng-show="$ctrl.isLoggedIn()"><a ui-sref="logout">Logout</a></li>
-      </ul>
+      </ul> -->
     </div>
   </div>
 </div>
