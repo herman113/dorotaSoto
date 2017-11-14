@@ -4,12 +4,14 @@ footer.footer {
   z-index: 10;
   text-align: center;
   padding: 30px 0;
+  
   margin: 0 auto;
   border-top: 1px solid #E5E5E5;
 }
 
 .footer-links a {
   display: inline-block;
+  margin-top: 8%;
   margin-left: 2%;
   margin-right: 2%;
   margin-bottom: 5%;
