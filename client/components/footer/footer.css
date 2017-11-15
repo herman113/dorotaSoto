@@ -20,7 +20,9 @@ footer.footer {
 }
 
 .footer-links a:hover {
-  background-color: rgba(0, 0, 0, 0.05);
+  
+  color: rgb(243, 12, 12);
+  text-decoration: underline;
 }
 
 #cta-button {
