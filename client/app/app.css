@@ -53,6 +53,7 @@
 @import 'services/services.css';
 @import '../components/footer/footer.css';
 @import '../components/modal/modal.css';
+@import '../components/navbar/navbar.css';
 @import '../components/oauth-buttons/oauth-buttons.css';
 /* endinject */
 
@@ -75,13 +76,7 @@ h1, h2, h3 {
   font-weight: 100;
 }
 
-.navbar-text {
-  margin-left: 15px;
-}
 
-.navbar.navbar-default.navbar-static-top {
-  margin-bottom: 0px;
-}
 
 p {
   font-size: 1.5em;
