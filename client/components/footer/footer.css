@@ -1,6 +1,44 @@
 footer.footer {
+  position: absolute;
+  /* top: -1000px !important;  */
+  z-index: 10;
   text-align: center;
   padding: 30px 0;
-  margin-top: 70px;
+  margin: 0 auto;
   border-top: 1px solid #E5E5E5;
+}
+
+.footer-links a {
+  display: inline-block;
+  margin-top: 8%;
+  margin-left: 2%;
+  margin-right: 2%;
+  margin-bottom: 5%;
+  /* text-decoration: underline; */
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.footer-links a:hover {
+  
+  color: rgb(243, 12, 12);
+  text-decoration: underline;
+}
+
+#cta-button {
+  width: 10em;
+  height: 3em;
+  border-radius: 1.5em;
+  border: 2px solid black;
+  font-size: 1.4em;
+}
+
+.btn-container {
+  padding-top: 5em;
+  padding-bottom: 5em;
+}
+
+.modalButton {
+  margin-top: 10%;
+  margin-bottom: 10%;
 }

@@ -1,0 +1,57 @@
+.servicesHeader {
+  margin-bottom: 8%;
+}
+
+.weeklyMealPlanning {
+	padding-top: 7%;
+}
+
+.servicesHeader0 {
+  font-family: freight-sans-pro, Sans-serif;
+  font-size: .9em;
+  letter-spacing: 4px;
+  font-style: normal;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.servicesHeader01 {
+  color: rgb(243, 12, 12);
+  font-size: 4.5em;
+  font-family: freight-big-pro, serif;
+  /* font-style: italic; */
+  font-weight: 0;
+}
+
+.servicesHeader1 {
+  line-height: 1.4;
+  letter-spacing: 1px;
+  color: rgb(243, 12, 12);
+  font-size: 2.2em;
+  font-family: freight-big-pro, serif;
+  /* font-style: italic; */
+	font-weight: 100;
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+.servicesHeader2 {
+	line-height: 1.4;
+  letter-spacing: 1px;
+  color: rgb(17, 16, 16);
+  font-size: 1.1em;
+  font-family: freight-big-pro, sans-serif;
+  /* font-style: italic; */
+  font-weight: 500;
+}
+.servicesParagraph {
+  line-height: 1.4;
+  letter-spacing: 1px;
+  color: rgb(17, 16, 16);
+  font-size: 1.1em;
+  font-family: freight-big-pro, sans-serif;
+  /* font-style: italic; */
+  font-weight: 100;
+}
+
+

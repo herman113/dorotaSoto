@@ -5,19 +5,19 @@ import angular from 'angular';
 
 export class NavbarComponent {
   menu = [{
-    title: 'HOME',
+    title: 'Home',
     state: 'main'
   }, {
-    title: 'ABOUT',
+    title: 'About',
     state: 'about'
   }, {
-    title: 'SERVICES',
+    title: 'Services',
     state: 'services'
   }, {
-    title: 'MENU',
+    title: 'Menu',
     state: 'menu'
   }, {
-    title: 'EVENTS',
+    title: 'Events',
     state: 'events'
   }];
   isLoggedIn: Function;

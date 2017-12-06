@@ -1,0 +1,75 @@
+.eventsSection {
+margin-top: 10%;
+}
+  
+.holiday {
+  background-image: url(../../assets/images/holiday1.jpg);
+  height: 50vh;
+  /* width: 40%; */
+  background-repeat:no-repeat;
+  background-size:cover;
+  /* background-attachment: fixed; */
+  background-position:top top;
+  /* background-size: 100%; */
+  margin-bottom: 2%;
+}
+
+.dateBox {
+  /* height: 50px; */
+  margin: 1%;
+  padding: 2%;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  background-color: #fff;
+  color: rgb(61, 60, 60);
+  font-family: freight-sans-pro, Sans-serif;
+  font-size: .9em;
+  letter-spacing: 4px;
+  font-style: normal;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.eventsHeader1 {
+  line-height: 1.4;
+  letter-spacing: 1px;
+  color: rgb(243, 12, 12);
+  font-size: 2.2em;
+  font-family: freight-big-pro, serif;
+  /* font-style: italic; */
+	font-weight: 0;
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+.eventsParagraph {
+  line-height: 1.4;
+  letter-spacing: 1px;
+  color: rgb(17, 16, 16);
+  font-size: 1.1em;
+  font-family: freight-big-pro, sans-serif;
+  /* font-style: italic; */
+  font-weight: 100;
+  margin-top: 5%;
+}
+
+.registerButton {
+  margin-top: 4%;
+  margin-bottom: 10%;
+}
+
+.leiaRed:link {
+  color:red;
+  text-decoration: underline;
+}
+.leiaRed:visited {
+  color:red;
+}
+.leiaRed:hover {
+  color:pink;
+  text-decoration-line: none;
+}
+.leiaRed:active {
+  color:black;
+  text-decoration-line: none;
+}
