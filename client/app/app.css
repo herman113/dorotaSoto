@@ -57,6 +57,11 @@
 @import '../components/oauth-buttons/oauth-buttons.css';
 /* endinject */
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 html {
   height: 100%;
   box-sizing: border-box;
