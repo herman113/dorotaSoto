@@ -62,3 +62,15 @@
 .menuHeader3 {
   margin-top: 5%;
 }
+
+.ng-scope .ng-isolate-scope {
+  padding-left: 0;
+} 
+
+.ng-scope {
+  padding-left: 0;
+} 
+
+.ng-isolate-scope {
+  padding-left: 0;
+}
